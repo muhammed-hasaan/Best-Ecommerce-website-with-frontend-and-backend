@@ -1,0 +1,574 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'> -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://preview.colorlib.com/theme/bootstrap/website-menu-17/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+  <title>Welcome Hasaan Coder</title>
+</head>
+
+<body onload="bodyy()">
+  <div id="loaderweb2" style="display: flex; justify-content: center; align-items: center; width: 100%; height: 90vh;">
+
+
+
+    <div id="loaderweb" class="loader"></div>
+  </div>
+  <div id="mainhole" class="mainhole" style="display: none;">
+    <!-- <div class="mainhole"   id="mainhole"> -->
+
+
+
+
+    <section class="header">
+      <a href="#">
+        <h3>H / Shirts</h3>
+      </a>
+      <nav>
+        <ul id="navbar" class="navbar">
+          <li><a class="active" href="index.html" id="blog">Home</a></li>
+          <li><a href="#shop" id="blog">Shop</a></li>
+          <li><a href="#blog22" id="blog">Blog</a></li>
+          <li><a href="login.html" id="login">Login</a></li>
+          <li><a href="signup.html" id="sign">Sign Up</a></li>
+
+
+
+          <!-- input field -->
+          <!-- <form action="" class="search-bar">
+            <input style="width: 200px;" type="search" class="inputclass" name="search" pattern=".*\S.*" required>
+            <button class="search-btn" type="submit">
+              <span>Search</span>
+            </button>
+          </form> -->
+
+
+
+          <!-- <div class="search-box">
+    <button class="btn-search"><i class="fas fa-search"></i></button>
+    <input type="text" class="input-search" placeholder="Type to Search...">
+  </div> -->
+          <!-- input field -->
+
+
+
+          <input style="display: none; width: 250px; border-radius:50px;" type="text" id="searchinput">
+          <button style="display: none; width: 50px; height: 50px; border-radius:50px;" id="searchbtn"><i
+              class="fa-solid fa-search"></i></button>
+          <br><br>
+          <button
+            style="text-align: center; background: none; border: 1px solid gray; color: gray; border-radius: 30px; width: 110px; height: 30px; margin-left: -62px; display: none; justify-content: center;align-items: center;"
+            id="logout123"></button>
+          <p id="logout"></p>
+          <!-- <select id="logout"
+      style="  width: 78px; padding:10px; height: 50px; border: none; background:none ; border-radius: 40px; display: none; ">
+      <button>
+        <option id="logout123"></option>
+      </button>
+    </select> -->
+          <button style="margin-left: 30px; border: none;background: none; color: gray; display:  none;"
+            id="weboutlog">Logout</button>
+          <li><a href="#" id="close"><i class="fas fa-times"></i></a></li>
+          <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+          <div class="search-container">
+            <input type="text" name="search" placeholder="Search..." class="search-input" id="searchinput">
+            <a class="search-btn" id="searchbtn">
+              <i class="fas fa-search"></i>
+            </a>
+          </div>
+        </ul>
+      </nav>
+      <!-- <div class="mobile">
+  <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+      <i id="bar" class="fas fa-outdent"></i>
+    </div> -->
+    </section>
+
+    <!-- <section class="hero">
+    <h4>Trade-in-offer</h4>
+    <h2>Super value deals</h2>
+    <h1>On all products</h1>
+    <p>Save more with coupons & get upto 70% off!</p>
+    <button>Shop Now</button>
+  </section> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light ">
+    <div class="container-fluid ">
+      <a class="navbar-brand d-flex justify-content-center
+      align-items-center" href="#"><b style="color: red; font-size: 33px;">HE</b>commerce <b
+      style="color: red; font-size: 33px;">S</b>tore</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-4">
+      </ul>
+      <form class="d-flex">
+        <div class="col auto">
+          <div class="px-2 my-sm-3 my-md-2 ">
+          </div>
+          
+        </form>
+        
+              
+            </div>
+            <h3 id="users"></h3>
+            
+            <input id="inp1" style="height: 35px; border-radius:3px; border:0.5px solid rgb(193, 193, 193);"> 
+            <button id="btn1" ><i class="fa-solid fa-magnifying-glass"></i></button>
+            
+            
+            <button type="button" class="btn btn-danger my-3 my-sm-0 my-md-1 " id="sign2"><a
+              style="text-decoration: none; color: white;" href="./signup.html" >  login<i class="fa-solid fa-user-plus"></i></a></button>
+              
+              
+              <button style = "background-color:rgb(92, 255, 141); display: none;" type="button"   class="btn my-3 my-sm-0 my-md-1">
+                <i class="fa-solid fa-user-plus"></i>
+            </button>
+            <button id="btn111" style="width:50px; height: 37px;" type="button" class="btn btn-danger my-3 my-sm-0 my-md-1 "><a
+              style="text-decoration: none; color: white; " href="./post.html">   sell</a></button> 
+              
+    </div>
+  </nav> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade lolololo">
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="z-index: -100;">
+          <img
+            src="https://images.unsplash.com/photo-1487014679447-9f8336841d58?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8ZWNvbWVyY2V8fHx8fHwxNjg5MDE2Mzgy&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1400"
+            class=" w-100" alt="...">
+        </div>
+        <div class="carousel-item" style="z-index: -100;">
+          <img
+            src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8ZWNvbWVyY2Usc2VsbCBwcm9kdWN0fHx8fHx8MTY4OTAxODY5MA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1400"
+            class=" w-100" alt="...">
+        </div>
+        <div class="carousel-item" style="z-index: -100;">
+          <img
+            src="https://images.unsplash.com/photo-1479064555552-3ef4979f8908?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8ZWNvbWVyY2Usc2VsbCBwcm9kdWN0fHx8fHx8MTY4OTAxODgwMw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1400"
+            class=" w-100" alt="...">
+        </div>
+        <div class="carousel-item" style="z-index: -100;">
+          <img src="https://source.unsplash.com/1400x400/?ecomerce,sell product" class=" w-100 " alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div id="dropdown23"
+      style="width: 100%; position: absolute; top: 100px; right: 120px; display: none; flex-direction: column; justify-content: flex-end; align-items: flex-end;">
+      <div
+        style="border: 1px solid gray; padding: 5px; display:flex; justify-content: center; align-items: center; font-size: 15px;">
+        <button style="width: 120px; border: 1px solid gray;">Setting</button>
+      </div>
+      <div
+        style="border: 1px solid gray; padding: 5px; display:flex; justify-content: center; align-items: center; font-size: 15px;">
+        <button style="width: 120px; border: 1px solid gray;">Sell</button>
+      </div>
+      <div
+        style="border: 1px solid gray; padding: 5px; display:flex; justify-content: center; align-items: center; font-size: 15px;">
+        <button style="width: 120px; border: 1px solid gray;">Logout</button>
+      </div>
+    </div>
+
+
+
+    <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; " class="container"
+      id="container">
+    </div>
+    <center>
+
+
+      <!-- for mobile -->
+
+      <div id="carouselExampleFade" class="carousel slide carousel-fade mobile-curse" style="margin-top: -60px;">
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="z-index: -100;">
+            <img src="https://source.unsplash.com/1400x1300/?ecomerce" style="min-height: 720px; max-height: 1300px;"
+              class=" w-100" alt="...">
+          </div>
+          <div class="carousel-item" style="z-index: -100;">
+            <img src="https://source.unsplash.com/1400x1300/?ecomerce,ecomerce products"
+              style="min-height: 720px; max-height: 1300px;" class=" w-100" alt="...">
+          </div>
+          <div class="carousel-item" style="z-index: -100;">
+            <img src="https://source.unsplash.com/1400x1300/?ecomerce,sell product"
+              style="min-height: 720px; max-height: 1300px;" class=" w-100 " alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <div style="margin-top: -300px;" class="container">
+        <h1 style="color: white;" class="bantop"><b style="color: rgb(0, 255, 255);">W</b>elcome <b
+            style="color: rgb(0, 255, 255);">T</b>o <b style="color: rgb(0, 255, 255);">H</b>asaan <b
+            style="color: rgb(0, 255, 255);">E</b> comerce</h1>
+        <button
+          style="width: 150px; height: 40px; border: 1px solid red; background-color: red; color: white; border-radius: 50px;">Scroll</button>
+      </div>
+      <br><br><br><br><br><br>
+      <br><br><br>
+      <!-- for mobile -->
+      <h2>Features</h2>
+      <p>These are the features of our process.</p>
+      <br>
+      <section class="feature section-p1" style="margin-top: 0px;">
+        <div class="feature__box">
+          <img src="https://codescoop.github.io/Responsive-Ecommerce-Website/img/features/f1.png" alt="Shipping Image">
+          <h6>Free Shipping</h6>
+        </div>
+        <div class="feature__box">
+          <img src="https://codescoop.github.io/Responsive-Ecommerce-Website/img/features/f2.png" alt="Shipping Image">
+          <h6>Timely Delivery</h6>
+        </div>
+        <div class="feature__box">
+          <img src="https://codescoop.github.io/Responsive-Ecommerce-Website/img/features/f3.png" alt="Shipping Image">
+          <h6>Save Money</h6>
+        </div>
+        <div class="feature__box">
+          <img src="https://codescoop.github.io/Responsive-Ecommerce-Website/img/features/f4.png" alt="Shipping Image">
+          <h6>Promotions</h6>
+        </div>
+        <div class="feature__box">
+          <img src="https://codescoop.github.io/Responsive-Ecommerce-Website/img/features/f5.png" alt="Shipping Image">
+          <h6>Rewards</h6>
+        </div>
+        <div class="feature__box">
+          <img src="https://codescoop.github.io/Responsive-Ecommerce-Website/img/features/f6.png" alt="Shipping Image">
+          <h6>24/7 Support</h6>
+        </div>
+      </section>
+
+
+
+      <br><br><br><br>
+      <div class="container">
+        <h2 id="shop">Featured Products</h2>
+        <p>Summer Collection New Modern Design</p>
+        <br><br>
+      </div>
+
+      <!-- <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; " class="container" id="container">
+      
+    </div> -->
+
+
+
+      <div class="container-fluid "
+        style="  column-gap: 20px;row-gap: 20px; width: 95%; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; "
+        id="container2">
+
+        <!-- <div id="container2" class="container2 my-5 d-flex  "
+        style=" column-gap:80px; row-gap: 50px; width: 98%;  padding: 10px;justify-content:center; align-items: center; flex-wrap: wrap;"> -->
+
+
+
+      </div>
+
+
+
+
+
+      <section class="banner section-m1">
+        <h4>Repair Services</h4>
+        <h2>Up to <span>70% Off</span> - All t-Shirts &amp; Accessories</h2>
+        <button class="normal">Explore More</button>
+      </section>
+
+
+
+      <br><br><br><br>
+      <h2 id="blog22">BLOG</h2>
+      <p>These are some blogs.</p>
+      <br><br>
+      <secton class="banner3">
+        <div class="banner-box">
+          <h2>SEASONAL SALE</h2>
+          <h3>Winter Collection - 50% OFF</h3>
+        </div>
+        <div class="banner-box banner-box2">
+          <h2>NEW FOOTWEAR COLLECTION</h2>
+          <h3>Spring/Summer 2022</h3>
+        </div>
+        <div class="banner-box banner-box3">
+          <h2>T-SHIRTS</h2>
+          <h3>New Trendy Prints</h3>
+        </div>
+      </secton>
+
+
+
+
+      <br><br><br><br><br>
+      <h2>LATEST SHOP UPDATES</h2>
+      <p>After puting email you can get updated with our store</p>
+      <br>
+      <section class="newsletter section-p1 section-m1">
+        <div class="newsletter__text">
+          <h4>Sign Up For Newsletters</h4>
+          <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="newsletter__form">
+          <input type="text" placeholder="Your email address">
+          <button class="normal">Sign Up</button>
+        </div>
+      </section>
+
+
+
+
+
+
+      <!-- </div> -->
+    </center>
+    <footer class="footer-section">
+      <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+          <div class="row">
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="cta-text">
+                  <h4>Find us</h4>
+                  <span>1010 Avenue, sw 54321, chandigarh</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="fas fa-phone"></i>
+                <div class="cta-text">
+                  <h4>Call us</h4>
+                  <span>9876543210 0</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="far fa-envelope-open"></i>
+                <div class="cta-text">
+                  <h4>Mail us</h4>
+                  <span>mail@info.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-content pt-5 pb-5">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 mb-50">
+              <div class="footer-widget">
+                <div class="footer-logo">
+
+                  <a style="color: white; " class="navbar-brand d-flex 
+                align-items-center" href="#"><b style="color: rgb(0, 255, 255); font-size: 33px;">HE</b>commerce <b
+                      style="color: rgb(0, 255, 255); font-size: 33px;">S</b>tore</a>
+                  <p>We have a nice and best T shirts and shirts</p>
+                  <!-- <a href="index.html"><img src="https://i.ibb.co/QDy827D/ak-logo.png" class="img-fluid" alt="logo"></a> -->
+                </div>
+                <div class="footer-text">
+                </div>
+                <div class="footer-social-icon">
+                  <span>Follow us</span>
+                  <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                  <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                  <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3 class="my-4">Useful Links</h3>
+                </div>
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">about</a></li>
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Our Services</a></li>
+                  <li><a href="#">Contact us</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Subscribe</h3>
+                </div>
+                <div class="footer-text mb-25">
+                  <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                </div>
+                <div class="subscribe-form">
+                  <form action="#">
+                    <input type="text" placeholder="Email Address">
+                    <button><i class="fab fa-telegram-plane"></i></button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+              <div class="copyright-text">
+                <p>Copyright &copy; 2018, All Right Reserved <a href="https://codepen.io/anupkumar92/">Muhammed
+                    Hasaan</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+              <div class="footer-menu">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Terms</a></li>
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Policy</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  </div>
+  <script src="index.js"></script>
+  <script type="module" src="index3.js"></script>
+  <!-- <script type="module" src="./login.js"></script> -->
+
+  <script src=" https://codescoop.github.io/Responsive-Ecommerce-Website/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
